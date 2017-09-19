@@ -1,5 +1,5 @@
 # MyDynamicCalendarLibrary
-This is an Android Library for developer to use customized calendar with all type of views and features, like Month View, Week View, Day View, Agenda, Add Events, Add Holiday etc. So all of these features contain in one calendar.
+This is an Android Library for developer to use customized calendar with all type of views and features, like Month View, Week View, Day View, Agenda, Add Events, Add Holiday etc. So all of these features contain in one calendar. There are also some other features which are not mentioned here. I will try to add them whenever I get some free time. Similarly, there are some bugs and I'm trying my best to fix them as soon as possible.
 <br>
 Example is available in app module.
 
@@ -28,21 +28,14 @@ allprojects {
 - Add this to your app build.gradle:
 ~~~
 dependencies {
-	compile 'com.github.vatsaldesai92:MyDynamicCalendarLibrary:1.0.1'
+	compile 'com.github.Debjitdj:DynamicCalendarLibrary:0.0.1'
 }
 ~~~
-
-<p>
-<a href="https://play.google.com/store/apps/details?id=com.desai.vatsal.myamazingcalendar&hl=en">
-<img src="https://github.com/vatsaldesai92/MyDynamicCalendarLibrary/blob/master/app/src/main/assets/google_play_icon.png" alt="screenshot" width="270">
-</a>
-</p>
-
 ##Usage
 
 - Add MyDynamicRecyclerView in xml file or dynamicaly careate in java file.
 ~~~
-    <com.desai.vatsal.mydynamiccalendar.MyDynamicCalendar
+    <tech.a0by0.mydynamiccalendar.MyDynamicCalendar
         android:id="@+id/myCalendar"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -262,22 +255,3 @@ dependencies {
     });
 ~~~
 
-
-##License
-~~~
-    Apache Version 2.0
-
-    Copyright 2016.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-~~~
